@@ -1,0 +1,55 @@
+{% extends 'aboutTemplate.html'%}
+{%block content%}
+      
+<div class="about-section">
+    <h1 style="background-color:white">About Us </h1>
+    <hr>
+    <p>I developed this website for Learning purpose</p>
+    <p style="background-color:rgb(26, 27, 27)">  - Sneha Mainkar</p>
+ 
+
+  </div>
+  
+<h2 style="text-align:center">My Project</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="{{ url_for('static', filename='profile_pics/baby1.jpg') }}" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Mailing Server</h2>
+        <p class="title">Technology : PHP and MYSQL</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>jane@example.com</p>
+       
+      </div>
+</div>
+</div>
+  <div class="column">
+    <div class="card">
+      <img src="{{ url_for('static', filename='profile_pics/baby1.jpg') }}" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Blog Website</h2>
+        <p class="title">Django and Sqlite</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p>
+  
+      </div>
+    </div>
+</div>
+<div class="column">
+    <div class="card">
+      <img src="{{ url_for('static', filename='profile_pics/baby1.jpg') }}" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Pathology Project</h2>
+        <p class="title">Vb.Net ,MYSQL Server</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p>
+  
+      </div>
+    </div>
+</div>
+
+</div>
+ {%endblock%}
+
+    
